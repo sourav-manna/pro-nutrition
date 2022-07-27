@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pro-nutrition/static/css/main.8382e26e.css",
+    "main.js": "/pro-nutrition/static/js/main.2d6d6c70.js",
+    "static/js/787.00b2791f.chunk.js": "/pro-nutrition/static/js/787.00b2791f.chunk.js",
+    "index.html": "/pro-nutrition/index.html",
+    "main.8382e26e.css.map": "/pro-nutrition/static/css/main.8382e26e.css.map",
+    "main.2d6d6c70.js.map": "/pro-nutrition/static/js/main.2d6d6c70.js.map",
+    "787.00b2791f.chunk.js.map": "/pro-nutrition/static/js/787.00b2791f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8382e26e.css",
+    "static/js/main.2d6d6c70.js"
+  ]
+}
