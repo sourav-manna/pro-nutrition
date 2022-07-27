@@ -7,7 +7,109 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.food-container{
+  display: flex;
+  justify-content: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+  height: 30px;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: x-large;
+}
+
+.box{
+  width: 50vw;
+}
+
+.fruit{
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 15vh;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(206, 206, 206);
+}
+
+.image-is-64x64{
+  width: 64px;
+  height: 64px;
+}
+
+.detail{
+  text-align: center;
+}
+
+.control{
+  display: inline;
+  margin-right: 10px;
+}
+
+button{
+  background-color: blueviolet;
+  height: 32px;
+  width: 32px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 5px rgb(206, 206, 206);
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button:hover{
+  background-color: rgb(60, 0, 116);
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(206, 206, 206);
+  height: 30px;
+  outline: none;
+  text-align: center;
+}
+
+.disp{
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 30vw;
+  height:min-content;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(206, 206, 206);
+  padding: 20px;
+}
+
+.item{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.search{
+  font-size: x-large;
+  font-weight: 500;
+}
+.search input{
+  margin-left: 20px;
+  font-size: medium;
+  height: 40px;
+  width: 250px;
 }
